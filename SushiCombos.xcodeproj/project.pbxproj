@@ -13,7 +13,6 @@
 		43C3FC9718C500000035627D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C3FC9618C500000035627D /* CoreData.framework */; };
 		43C3FC9D18C500000035627D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43C3FC9B18C500000035627D /* InfoPlist.strings */; };
 		43C3FC9F18C500000035627D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C3FC9E18C500000035627D /* main.m */; };
-		43C3FCA318C500000035627D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C3FCA218C500000035627D /* AppDelegate.m */; };
 		43C3FCA618C500000035627D /* SushiCombos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43C3FCA418C500000035627D /* SushiCombos.xcdatamodeld */; };
 		43C3FCA818C500000035627D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C3FCA718C500000035627D /* Images.xcassets */; };
 		43C3FCAF18C500000035627D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C3FCAE18C500000035627D /* XCTest.framework */; };
@@ -22,6 +21,11 @@
 		43C3FCB218C500000035627D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C3FC9618C500000035627D /* CoreData.framework */; };
 		43C3FCBA18C500000035627D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43C3FCB818C500000035627D /* InfoPlist.strings */; };
 		43C3FCBC18C500000035627D /* SushiCombosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C3FCBB18C500000035627D /* SushiCombosTests.m */; };
+		43C3FCC718C5001B0035627D /* CombosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43C3FCC518C5001B0035627D /* CombosViewController.xib */; };
+		43C3FCC818C5001B0035627D /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43C3FCC618C5001B0035627D /* MasterViewController.xib */; };
+		43C3FCCD18C5002D0035627D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C3FCCA18C5002D0035627D /* MasterViewController.m */; };
+		43C3FCCE18C5002D0035627D /* CombosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C3FCCC18C5002D0035627D /* CombosViewController.m */; };
+		43C3FCD118C5008E0035627D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C3FCD018C5008E0035627D /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +48,6 @@
 		43C3FC9C18C500000035627D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43C3FC9E18C500000035627D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43C3FCA018C500000035627D /* SushiCombos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SushiCombos-Prefix.pch"; sourceTree = "<group>"; };
-		43C3FCA118C500000035627D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		43C3FCA218C500000035627D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		43C3FCA518C500000035627D /* SushiCombos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SushiCombos.xcdatamodel; sourceTree = "<group>"; };
 		43C3FCA718C500000035627D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		43C3FCAD18C500000035627D /* SushiCombosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SushiCombosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +55,14 @@
 		43C3FCB718C500000035627D /* SushiCombosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SushiCombosTests-Info.plist"; sourceTree = "<group>"; };
 		43C3FCB918C500000035627D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43C3FCBB18C500000035627D /* SushiCombosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SushiCombosTests.m; sourceTree = "<group>"; };
+		43C3FCC518C5001B0035627D /* CombosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CombosViewController.xib; sourceTree = "<group>"; };
+		43C3FCC618C5001B0035627D /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		43C3FCC918C5002D0035627D /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		43C3FCCA18C5002D0035627D /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		43C3FCCB18C5002D0035627D /* CombosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombosViewController.h; sourceTree = "<group>"; };
+		43C3FCCC18C5002D0035627D /* CombosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombosViewController.m; sourceTree = "<group>"; };
+		43C3FCCF18C5008E0035627D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43C3FCD018C5008E0035627D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +125,16 @@
 		43C3FC9818C500000035627D /* SushiCombos */ = {
 			isa = PBXGroup;
 			children = (
-				43C3FCA118C500000035627D /* AppDelegate.h */,
-				43C3FCA218C500000035627D /* AppDelegate.m */,
+				43C3FCCF18C5008E0035627D /* AppDelegate.h */,
+				43C3FCD018C5008E0035627D /* AppDelegate.m */,
 				43C3FCA718C500000035627D /* Images.xcassets */,
 				43C3FCA418C500000035627D /* SushiCombos.xcdatamodeld */,
+				43C3FCC918C5002D0035627D /* MasterViewController.h */,
+				43C3FCCA18C5002D0035627D /* MasterViewController.m */,
+				43C3FCCB18C5002D0035627D /* CombosViewController.h */,
+				43C3FCCC18C5002D0035627D /* CombosViewController.m */,
+				43C3FCC518C5001B0035627D /* CombosViewController.xib */,
+				43C3FCC618C5001B0035627D /* MasterViewController.xib */,
 				43C3FC9918C500000035627D /* Supporting Files */,
 			);
 			path = SushiCombos;
@@ -228,6 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43C3FCC818C5001B0035627D /* MasterViewController.xib in Resources */,
+				43C3FCC718C5001B0035627D /* CombosViewController.xib in Resources */,
 				43C3FC9D18C500000035627D /* InfoPlist.strings in Resources */,
 				43C3FCA818C500000035627D /* Images.xcassets in Resources */,
 			);
@@ -248,9 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43C3FCA318C500000035627D /* AppDelegate.m in Sources */,
+				43C3FCCE18C5002D0035627D /* CombosViewController.m in Sources */,
+				43C3FCCD18C5002D0035627D /* MasterViewController.m in Sources */,
 				43C3FC9F18C500000035627D /* main.m in Sources */,
 				43C3FCA618C500000035627D /* SushiCombos.xcdatamodeld in Sources */,
+				43C3FCD118C5008E0035627D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

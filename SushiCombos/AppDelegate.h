@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  SushiCombos
 //
-//  Created by NEIL DINGMAN on 3/3/14.
-//  Copyright (c) 2014 Neil Dingman. All rights reserved.
+//  Created by NEIL DINGMAN on 3/12/12.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -18,5 +18,7 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+
+@property (strong, nonatomic) UINavigationController *navigationController;
 
 @end
